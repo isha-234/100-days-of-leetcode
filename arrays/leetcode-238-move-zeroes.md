@@ -1,3 +1,4 @@
+```
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -11,6 +12,6 @@ class Solution:
                 nums[l],nums[r] = nums[r],nums[l]
                 l+=1
         return nums
-
+```
 
         
